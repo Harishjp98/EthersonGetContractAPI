@@ -7,6 +7,15 @@ It has 3 endpoints
 2. getContractInfoFromDB: It get the input as ID and get the contract from DB base on the ID provide.
 3. getAllContractInfoFromDB: It get all the contract from the DB and display it in JSON format.
 
+Technologies used:
+Back-end: .Net Core
+DataBase: MS SQL Server
+
+Design pattern
+1. EF Core for database access
+2. Dependency injection
+3. Repository pattern
+   
 API key: CPYIXBS59KH1IDK4963WTZYT2B1GM4X85X
 Sample Contract address: 0x5c49576a7459b4168534bf712de60b42a525bc9d
 URL for getContractInfoFromEtherson:  https://localhost:44371/api/EthersonContract/getContractInfoFromEtherson?contractAddress=0x5c49576a7459b4168534bf712de60b42a525bc9d&ApiKey=CPYIXBS59KH1IDK4963WTZYT2B1GM4X85X
@@ -15,5 +24,6 @@ To Acess the application:
 1. Clone the repository and change the connection string.
 2. Add migration to the DB for create database and table.
 3. Run the API.
+
 
 
